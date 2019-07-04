@@ -9,10 +9,6 @@
 <link rel="shortcut icon" href="img/logo_Skycenter.png">
 </head>
 <body>
-<div id="content" style="border: solid 1px; padding: 20px; background: #ddd;
-			 display: <?php echo "$button";	?>;">
-          	<?php $login_customer = check_login($email,$password);?>
-     	</div>	
 <div class="divbody" style="min-width:800px height: 870px;">
 	<div class="divbody" style="background-color: #a7e1ef;height: 110px;">
 		<div style=" float: left;">
