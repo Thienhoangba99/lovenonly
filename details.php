@@ -1,18 +1,4 @@
-<?php
-	// include_once('Admin/database_app_shop.php');
-	include_once('Admin/model/database_shop.php');
-	include_once('Admin/model/m_category.php');
-	include_once('Admin/model/m_product.php');
-	include_once('Admin/model/m_slide.php');
-	$categories = get_categories();
-	$products = get_products();	
-	$slides = get_slides();
 
-	$productid = filter_input(INPUT_GET, 'productid');
-	$product_detail = get_product_by_id($productid);
-	//print_r($categories);
-
-?>
 <!DOCTYPE html>
 <html>
 <head>
