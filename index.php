@@ -1,5 +1,5 @@
 <?php
-	// include_once('Admin/database_app_shop.php');
+	include_once('Admin/database_app_shop.php');
 	include_once('Admin/model/database_shop.php');
 	include_once('Admin/model/m_category.php');
 	include_once('Admin/model/m_product.php');
