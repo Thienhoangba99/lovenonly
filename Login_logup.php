@@ -1,17 +1,4 @@
 
-<?php	
-	include_once('Admin/model/database_shop.php');
-	include_once('Admin/model/m_customer.php');
-	$customers = get_customers();
-	$email=filter_input(INPUT_POST,'email');
-	$password=filter_input(INPUT_POST,'password');
-	$firstname=filter_input(INPUT_POST,'email');
-	$lastname=filter_input(INPUT_POST,'password');
-	$add_customer = add_customer($email,$password,$firstname,$lastname);
-
-/*	$login_customer = check_login($email,$password);
-*/
-?>
 
 <!DOCTYPE html>
 <html>
