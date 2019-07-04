@@ -4,9 +4,6 @@
 	include_once('Admin/model/m_category.php');
 	include_once('Admin/model/m_product.php');
 	include_once('Admin/model/m_slide.php');
-	$categories = get_categories();
-	$products = get_products();	
-	$slides = get_slides();
 	//print_r($categories);
 ?>
 
