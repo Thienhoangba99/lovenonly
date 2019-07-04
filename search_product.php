@@ -1,19 +1,4 @@
-<?php
-	// include_once('Admin/database_app_shop.php');
-	include_once('Admin/model/database_shop.php');
-	include_once('Admin/model/m_category.php');
-	include_once('Admin/model/m_product.php');
-	$categories = get_categories();
 
-	$categoryid=filter_input(INPUT_GET,'categoryid');
-
-	$search_value = filter_input(INPUT_POST,'search_value');
-	
-	
-	$products = search_product($search_value);	
-	//print_r($categories);
-
-?>
 <!DOCTYPE html>
 <html>
 <head>
