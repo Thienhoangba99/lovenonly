@@ -55,7 +55,7 @@
 		<div class="container">
 			<div class="row" id="row-container">
 			  <div class="col-sm-2.5">
-			  	<a href="home.php" title="">
+			  	<a href="index.php" title="">
 			  		<img src="img/logo.png" alt="" style="width: 40%;">
 			  	</a>
 			  </div>
@@ -107,7 +107,7 @@
 						<div id="position" style="height: 50px">
 						<ul id="ul_logo_1">
 						<li>
-							<a href=home.php title="" class="li_logo">HOME</a>
+							<a href=index.php title="" class="li_logo">HOME</a>
 						</li>
 						<li>
 							<a href="" title="" class="li_logo">CATALOG/STORE</a>
